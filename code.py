@@ -33,7 +33,7 @@ def send_email(receiver_email):
 def main():
     st.title("YouTube Video Downloader and Audio Merger")
 
-    artist_name = st.text_input("Enter artist name:", "sharry maan")
+    artist_name = st.text_input("Enter artist name:", "honey singh")
     num_videos = st.slider("Number of videos to download:", 1, 20, 5)
     receiver_email = st.text_input("Enter receiver email address:")
 
